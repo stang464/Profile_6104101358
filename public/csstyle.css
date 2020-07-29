@@ -149,3 +149,58 @@ div.polaroid {
    width: 356;
    height: 512;
 }
+
+
+.picture-fb{
+   position: relative;
+   height:100px;
+   width: 100px;
+   background-image: url('img/contact/hover/fb.png');
+   background-repeat:no-repeat;
+}
+
+.picture-fb:hover {
+   transition: 0.1s;
+   background-image: url('img/contact/fb.png');
+}
+
+.picture-ig{
+   position: relative;
+   height:100px;
+   width: 100px;
+   background-image: url('img/contact/hover/ig.png');
+   background-repeat:no-repeat;
+}
+
+.picture-ig:hover {
+   transition: 0.1s;
+   background-image: url('img/contact/ig.png');
+}
+
+.picture-twitter{
+   position: relative;
+   height:100px;
+   width: 100px;
+   background-image: url('img/contact/hover/twitter.jpg');
+   background-repeat:no-repeat;
+}
+
+.picture-twitter:hover {
+   transition: 0.1s;
+   background-image: url('img/contact/twitter.png');
+}
+
+.button {
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+ }
+
+ a{
+    color: white;
+ }
