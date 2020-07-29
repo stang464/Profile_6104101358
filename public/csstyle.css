@@ -204,3 +204,22 @@ div.polaroid {
  a{
     color: white;
  }
+
+ .zoom {
+   
+  padding: 20px;
+   transition: transform .2s; 
+   
+   
+ }
+ 
+ .zoom:hover {
+    
+   transform: scale(1.5); 
+ }
+
+.logoedu{
+   height :160px;
+   width : 160px;
+
+ }
